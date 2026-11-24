@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/TheRealAliz/sms-messenger/discussions
+    about: Ask a question or discuss an idea with the community.
+  - name: Security report
+    url: https://github.com/TheRealAliz/sms-messenger/security/advisories/new
+    about: Report a vulnerability privately. Do not open a public issue.

@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+build/
+.kotlin/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local SDK and signing configuration (never commit secrets)
+local.properties
+keystore.properties
+*.jks
+*.keystore
+!keystore.properties.example
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Build output
+app/build/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Logs
+*.log
+
+# Raw marketing assets contain real device data and are intentionally kept out of Git
+marketing/

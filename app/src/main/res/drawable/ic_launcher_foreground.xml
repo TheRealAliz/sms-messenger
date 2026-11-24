@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- The bubble itself is drawn smaller than the adaptive-icon safe area. -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.72"
+        android:scaleY="0.72">
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M34,36h40a6,6 0 0 1 6,6v22a6,6 0 0 1 -6,6H52l-10,10v-10h-8a6,6 0 0 1 -6,-6V42a6,6 0 0 1 6,-6z" />
+    </group>
+</vector>

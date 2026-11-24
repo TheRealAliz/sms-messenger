@@ -1,0 +1,57 @@
+name: Feature request
+description: Suggest an improvement or a new feature
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. Please describe the problem first, then the
+        solution you have in mind. Screenshots or sketches are welcome.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the situation where the app falls short.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Conversations and chat
+        - Sending and SIM
+        - Notifications
+        - Privacy and lock
+        - Appearance and language
+        - Accessibility
+        - Build and tooling
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: This does not require MMS or RCS.
+          required: false
+        - label: This keeps all message data on the device.
+          required: false

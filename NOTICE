@@ -1,0 +1,11 @@
+Messages (SMS Messenger)
+Copyright 2026 TheRealAliz and contributors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This product bundles the Shabnam font, Copyright (c) 2015 Saber Rastikerdar,
+licensed under the SIL Open Font License, Version 1.1. See
+licenses/Shabnam-OFL.txt.
+
+This product depends on AndroidX, Jetpack Compose, Kotlin, Kotlin Coroutines,
+Room, WorkManager and other libraries. See THIRD_PARTY_NOTICES.md.
